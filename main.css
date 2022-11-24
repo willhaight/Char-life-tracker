@@ -32,7 +32,8 @@ h2 {
     width: 30%;
 }
 
-#submit {
+#submit,
+#delete {
     margin-top: 5px;
     width: 20%;
     height: 5em;
