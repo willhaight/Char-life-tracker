@@ -3,23 +3,30 @@ body {
     color: white;
 }
 
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
 #field {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #field div {
     display: flex;
-    width: 30%;
+    width: 50%;
     justify-content: space-around;
     border: 2px solid white;
     margin-top: 2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #field div input {
-    margin-top: 6%;
     height: 30%;
     width: 30%;
 }
