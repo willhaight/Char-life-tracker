@@ -38,4 +38,10 @@ h2 {
     width: 20%;
     height: 5em;
     border-radius: 15%;
+    border-left-color: rgb(228, 228, 228);
+    border-bottom-color: rgb(228, 228, 228);
+    border-top-color: rgb(157, 157, 157);
+    border-right-color: rgb(157, 157, 157);
+    color: rgb(0, 0, 0);
+    background-color: rgb(150, 150, 150);
 }
