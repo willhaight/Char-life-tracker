@@ -122,7 +122,7 @@ let liveEnergy = document.getElementById('liveEnergy');
 
 onkeyup = function () {
     console.log(liveHealth.value)
-    if (localStorage.health) {
+    if (localStorage.health || this.localStorage.arcana || this.localStorage.shieldPoints || this.localStorage.energy) {
         this.localStorage.health = liveHealth.value;
         this.localStorage.arcana = liveArcana.value;
         this.localStorage.shieldPoints = liveShieldPoints.value;
